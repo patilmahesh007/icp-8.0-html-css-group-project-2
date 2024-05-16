@@ -54,6 +54,8 @@ body {
 
 .card-head {
     display: flex;
+    flex-direction: row;
+    
 
 
 }
