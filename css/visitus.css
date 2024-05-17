@@ -1,31 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color:#FAEED1;
 }
 
-header {
-    background-color: #607274;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color:#FAEED1;
-}
 
-header {
-    background-color: #607274;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
 
 main {
     padding: 1rem;
@@ -147,4 +128,8 @@ footer {
 .nav-anchor{
     text-decoration: none;
     color: black;
+}
+.logo {
+    border-radius: 50%;
+    height: 80px;
 }
