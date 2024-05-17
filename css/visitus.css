@@ -114,3 +114,12 @@ button:hover {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #607274;
+    color: #fff;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
