@@ -39,3 +39,11 @@ img{
     margin-left: 200px; 
     border-radius: 30px 40px 30px 40px;
 }
+h1{
+    text-align: center;
+    font-family:cursive;
+}
+.info{
+    padding-left: 700px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
