@@ -33,3 +33,12 @@ body {
     border-radius: 50%;
     height: 80px;
 }
+.navbar2{
+  display: flex;
+ padding: 0px 40px;
+   
+   margin-top: -0px;
+   font-size: larger;
+
+ background-color: #FAEED1;
+}
