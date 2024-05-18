@@ -47,3 +47,28 @@ h1{
     padding-left: 700px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.contact-platform{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    text-align: center;
+}
+.receiver{
+    width: 200px;
+    font-size: 20px;
+}
+.gmail{
+    width: 200px;
+    font-size: 20px;
+}
+.google-maps{
+    width: 200px;
+    font-size: 20px;
+}
+.font-contact-platform{
+    font-size: 20px;
+}
+
