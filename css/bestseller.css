@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #DED0B6;
+    background-color: #FAEED1;
 }
 
 .navbar {
@@ -45,7 +45,6 @@ body {
     padding: 10px;
     margin-left: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 45px 0 black;
     display: inline-block;
 }
 .card:hover .img{
