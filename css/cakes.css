@@ -55,16 +55,13 @@ body {
     padding: 10px;
     margin-left: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 45px 0 black;
+    
 }
 .card:hover .img{
    height:  72px ;
 }
 
-.card:hover{
-    height:200;
-    width:430px;
-}
+
 
 .img {
     height: 80px;
@@ -100,12 +97,9 @@ body {
 .btn:active{
 
     background-color: #006600;
-    height: 25px;
-    width:75px;
+    height: 28px;
+    width:88px;
+    
 
 }
 
-.btn:hover{
-    height: 25px;
-    width:75px;
-}
