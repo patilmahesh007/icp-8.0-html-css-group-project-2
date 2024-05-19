@@ -8,10 +8,10 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #607274;
-    height: 100px;
+    height: 80px;
     align-items: center;
-   
 }
+
 .nav-text {
 
     font-size: 20px;
@@ -22,6 +22,7 @@ body {
     padding-top: 10px;
     
 }
+
 .nav-text:hover {
     font-size: 22px;
 }
@@ -29,9 +30,10 @@ body {
     text-decoration: none;
     color: black;
 }
+
 .logo {
     border-radius: 50%;
-    height: 80px;
+    height: 60px;
 }
 .navbar2{
   display: flex;
@@ -41,4 +43,59 @@ body {
    font-size: larger;
 
  background-color: #FAEED1;
+}
+.container{
+ 
+    height: 800px;
+    display: flex;
+    justify-content:space-around;
+}
+.card{
+    width: 471px;
+    height:300px;
+    border-radius: 7px;
+    
+ background-color: #FAEED1;
+ position: relative;
+   
+}
+
+.card >img{
+    height: 150PX;
+    border-bottom: 0.3px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.text-big{
+    font-size: x-large;
+    padding: 20px;
+
+}
+.text-small{
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    padding-left: 20px;
+}
+.btn{ border-radius: 30px;
+    background-color: #009900;
+    height: 30px;
+    width: 90px;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+ }
+ .btn:active{
+
+    background-color: #006600;
+    height: 29px;
+    width: 89px;
+}
+.price{
+    
+    margin-left: 20px;
+   display: inline-block;
+   padding-top: 20PX;
 }

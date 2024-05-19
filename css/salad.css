@@ -80,13 +80,12 @@ body {
 .btn{
     margin-left: 340px;
     border-radius: 30px;
-   background-color: #0280fe;
+    background-color: #009900;
    height: 30px;
    width: 90px;
 
 }
 .btn:active{
 
-    background-color:#0280fe;
-
+    background-color: #009900;
 }
