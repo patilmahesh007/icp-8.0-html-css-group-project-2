@@ -11,7 +11,6 @@ body {
     height: 100px;
     align-items: center;
 }
-
 .nav-text {
 
     font-size: 20px;
@@ -22,7 +21,6 @@ body {
     padding-top: 10px;
     
 }
-
 .nav-text:hover {
     font-size: 22px;
 }
@@ -30,12 +28,10 @@ body {
     text-decoration: none;
     color: black;
 }
-
 .logo {
     border-radius: 50%;
     height: 80px;
 }
-
 .a-conatainer{
     display:flex;  
 }
