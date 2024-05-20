@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #607274;
-    height: 100px;
+    height: 80px;
     align-items: center;
     
 }
@@ -28,7 +28,7 @@ color: black;
    }
  .logo {
 border-radius: 50%;
-height: 80px;
+height: 60px;
 }
 .card {
   height: 230px;
