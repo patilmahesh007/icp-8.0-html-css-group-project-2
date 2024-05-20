@@ -8,32 +8,30 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #607274;
-    height: 100px;
+    height: 80px;
     align-items: center;
 }
 
 .nav-text {
-
     font-size: 20px;
-   
     height: 50px;
     width: 100px;
     text-align: center;
     padding-top: 10px;
-    
 }
 
 .nav-text:hover {
     font-size: 22px;
 }
-.nav-anchor{
+
+.nav-anchor {
     text-decoration: none;
     color: black;
 }
 
 .logo {
     border-radius: 50%;
-    height: 80px;
+    height: 60px;
 }
 
 .container {
@@ -41,54 +39,45 @@ body {
     background-color: #FAEED1;
     padding: 10px;
 }
-.container:hover{
-    overflow-y: auto;
-}
+
 
 
 .container-text {
     font-size: 20px;
- 
 }
 
 .card-set {
     display: flex;
-
-    justify-content: space-around;
-    height: 220px;
-
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .card {
     height: 180px;
     width: 450px;
     background-color: #DED0B6;
-    margin-top: 10px;
+    
     padding: 10px;
     border-radius: 5px;
-    
-
+    margin: 20px 20px;
 }
-.card:hover .img{
-   height:  72px ;
+
+.card:hover .img {
+    height: 72px;
 }
 
 .img {
     height: 70px;
     padding: 10px;
-  
     border-radius: 19px;
 }
 
 .card-head {
     display: flex;
-
-
 }
 
 .big-description {
     display: block;
-
     font-size: 20px;
     padding-left: 3px;
 }
@@ -97,37 +86,35 @@ body {
     font-size: 14px;
     padding: 2px;
     text-align: justify;
-
 }
-.btn{
+
+.btn {
     margin-left: 340px;
     border-radius: 30px;
-   background-color: #009900;
-   height: 30px;
-   width: 90px;
-
+    background-color: #009900;
+    height: 30px;
+    width: 90px;
 }
-.btn:active{
 
+.btn:active {
+    height: 29px;
+    width: 89px;
     background-color: #006600;
-
 }
+
 .categories {
     display: flex;
     justify-content: space-around;
-
 }
 
 .categoty-img {
     border-radius: 50%;
     height: 120px;
-
 }
 
 .categoty-img:hover {
     border: 2px solid green;
     height: 121px;
-
 }
 
 .page-box {
@@ -135,12 +122,301 @@ body {
     flex-direction: column;
     text-align: center;
     text-decoration: none;
-
 }
 
 .page-name {
     font-size: larger;
     margin-top: 10px;
-
     color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav-text {
+        font-size: 15px;
+        height: 20px;
+        width: 60px;
+    }
+
+    .nav-text:hover {
+        font-size: 17px;
+    }
+
+    .container {
+        height: fit-content;
+        background-color: #FAEED1;
+        padding: 7px;
+    }
+
+    .card {
+        height: 130px;
+        width: 350px;
+        margin-top: 7px;
+        padding: 3px;
+    }
+
+    .card:hover .img {
+        height: 62px;
+    }
+
+    .img {
+        height: 60px;
+        padding: 10px;
+        border-radius: 19px;
+    }
+
+    .big-description {
+        font-size: 15px;
+        padding-left: 3px;
+    }
+
+    .small-description {
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    .btn {
+        margin-left: 200px;
+        border-radius: 30px;
+        height: 20px;
+        width: 70px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .btn:active {
+        height: 19px;
+        width: 69px;
+    }
+
+    .categoty-img {
+        height: 60px;
+    }
+
+    .categoty-img:hover {
+        height: 61px;
+    }
+
+    .page-name {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 845px) {
+    .nav-text {
+        font-size: 16px;
+        height: 30px;
+        width: 70px;
+    }
+    .nav-text:hover {
+        font-size: 18px;
+    }
+    
+    .categoty-img {
+        height: 80px;
+    }
+
+    .categoty-img:hover {
+        height: 81px;
+    }
+
+    .page-name {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 846px) and (max-width: 992px) {
+    .nav-text {
+        font-size: 18px;
+        height: 40px;
+        width: 80px;
+    }
+
+    .nav-text:hover {
+        font-size: 20px;
+    }
+
+    .container {
+        height: 240px;
+        padding: 8px;
+    }
+
+    .card {
+        height: 160px;
+        width: 400px;
+        margin-top: 8px;
+        padding: 8px;
+    }
+
+    .card:hover .img {
+        height: 68px;
+    }
+
+    .img {
+        height: 66px;
+        padding: 8px;
+        border-radius: 18px;
+    }
+
+    .big-description {
+        font-size: 18px;
+    }
+
+    .small-description {
+        font-size: 12px;
+    }
+
+    .btn {
+        margin-left: 300px;
+        height: 28px;
+        width: 80px;
+    }
+
+    .btn:active {
+        height: 27px;
+        width: 79px;
+    }
+
+    .categoty-img {
+        height: 100px;
+    }
+
+    .categoty-img:hover {
+        height: 101px;
+    }
+
+    .page-name {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .nav-text {
+        font-size: 19px;
+        height: 45px;
+        width: 90px;
+    }
+
+    .nav-text:hover {
+        font-size: 21px;
+    }
+
+    .container {
+        height: 260px;
+        padding: 9px;
+    }
+
+    .card {
+        height: 170px;
+        width: 420px;
+        margin-top: 9px;
+        padding: 9px;
+    }
+
+    .card:hover .img {
+        height: 70px;
+    }
+
+    .img {
+        height: 68px;
+        padding: 9px;
+        border-radius: 18px;
+    }
+
+    .big-description {
+        font-size: 19px;
+    }
+
+    .small-description {
+        font-size: 13px;
+    }
+
+    .btn {
+        margin-left: 320px;
+        height: 29px;
+        width: 85px;
+    }
+
+    .btn:active {
+        height: 28px;
+        width: 84px;
+    }
+
+    .categoty-img {
+        height: 110px;
+    }
+
+    .categoty-img:hover {
+        height: 111px;
+    }
+
+    .page-name {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 1201px) {
+    .nav-text {
+        font-size: 20px;
+        width: 100px;
+    }
+
+    .nav-text:hover {
+        font-size: 22px;
+    }
+
+    .container {
+        height: 280px;
+        padding: 10px;
+    }
+
+    .card {
+        height: 180px;
+        width: 450px;
+    
+    }
+
+    .card:hover .img {
+        height: 72px;
+    }
+
+    .img {
+        height: 70px;
+        padding: 10px;
+        border-radius: 19px;
+    }
+
+    .big-description {
+        font-size: 20px;
+    }
+
+    .small-description {
+        font-size: 14px;
+    }
+
+    .btn {
+        margin-left: 340px;
+        height: 30px;
+        width: 90px;
+    }
+
+    .btn:active {
+        height: 29px;
+        width: 89px;
+    }
+
+    .categoty-img {
+        height: 120px;
+    }
+
+    .categoty-img:hover {
+        height: 121px;
+    }
+
+    .page-name {
+        font-size: 17px;
+    }
 }

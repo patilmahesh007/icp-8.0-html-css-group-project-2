@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #DED0B6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #607274;
+    height: 100px;
+    align-items: center;
+}
+.nav-text {
+
+    font-size: 20px;
+   
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.nav-text:hover {
+    font-size: 22px;
+}
+.nav-anchor{
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    border-radius: 50%;
+    height: 80px;
+}
+.a-conatainer{
+    display:flex;  
+}
+
+.card {
+        height: 200px;
+        width: 450px;
+        background-color:#FAEED1;
+        margin-left: 10px;
+        padding: 20px;
+        border-radius: 5px;
+        margin-right: 50px;
+        display: inline-block;
+        
+        
+    
+    }
+.img1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.veg{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 90px;
+}
+.snack{
+    margin-left: 110px;
+    margin-top: -80px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.descrip{
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+.price{
+    margin-left:150px;
+    margin-top: 50px;
+}
+.btn1{
+    margin-left: 280px;
+    margin-top:-22px;
+    
+}
+.btn:active{
+
+
+    background-color: #006600;
+
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color:#006600;
+    color: white;
+}
+
+.cal{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #006600;
+}
+.card1 {
+    height: 200px;
+    width: 450px;
+    background-color:#FAEED1;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-top: -220px;
+    margin-left: 500px;
+    
+    
+
+}
+.nonveg{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 90px;
+}
+.card3{
+    height: 200px;
+    width: 450px;
+    background-color:#FAEED1;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-top: -220px;
+    margin-left: 500px;
+}
+.single{
+    margin-left: -1070px;
+    margin-top: 50px;
+}
+.double{
+    margin-left: -550px;
+    margin-top: 50px;
+}
+.tagline{
+    font-size: 30px;
+    margin-top: -100px;
+    margin-left: 20px;
+}
