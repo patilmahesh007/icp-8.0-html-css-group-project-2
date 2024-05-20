@@ -38,12 +38,25 @@ body {
 .navbar2{
   display: flex;
  padding: 0px 40px;
-   
+ height: 100px;   
    margin-top: -0px;
    font-size: larger;
+   align-items: center;
 
  background-color: #FAEED1;
 }
+.navbar2>a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.parent-container-text{
+    font-size:larger;
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
 .container{
  
     height: 800px;
