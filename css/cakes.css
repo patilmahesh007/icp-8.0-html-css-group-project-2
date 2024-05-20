@@ -116,14 +116,9 @@ body {
 
 @media screen and (max-width:600px) {
     .card {
-        height: 170px;
-        width: 300px;
-        background-color: #DED0B6;
-        margin-top: 10px;
-        padding: 10px;
-        border-radius: 15px;
-        margin-bottom: 25px;
-        border:0px solid #DED0B6;
+        height: 200px;
+        width: 350px;
+       
         
     
     }
@@ -138,6 +133,23 @@ body {
         padding: 10px;
         border-radius: 19px;
     }
+
+    .small-description {
+        font-size: 12px;
+        padding: 2px;
+        text-align: justify;
+    
+    }
+    .btn{
+        margin-left: 170px;
+        border-radius: 20px;
+       background-color: #009900;
+       height: 20px;
+       width: 60px;
+       font-size: 10px;
+       margin-bottom:100px;
+    
+    }
     
 
 }
@@ -145,8 +157,8 @@ body {
 @media screen and (min-width:601px) and (max-width:768px){
 
     .card {
-        height: 190px;
-        width: 330px;
+        height: 230px;
+        width: 380px;
         background-color: #DED0B6;
         margin-top: 10px;
         padding: 10px;
@@ -167,6 +179,22 @@ body {
         padding: 10px;
         border-radius: 19px;
     }
+
+    .small-description {
+        font-size: 14px;
+        padding: 2px;
+        text-align: justify;
+    
+    }
+    .btn{
+        margin-left: 300px;
+        border-radius: 30px;
+       background-color: #009900;
+       height: 20px;
+       width: 70px;
+       
+    
+    }
     
 
 }
@@ -174,7 +202,7 @@ body {
 @media screen and (min-width:769px) and (max-width:992px){
 
     .card {
-        height: 210px;
+        height: 230px;
         width: 380px;
         background-color: #DED0B6;
         margin-top: 10px;
@@ -196,6 +224,24 @@ body {
         padding: 10px;
         border-radius: 19px;
     }
+
+    .small-description {
+        font-size: 12px;
+        padding: 2px;
+        text-align: justify;
+    
+    }
+    .btn{
+        margin-left: 290px;
+        border-radius: 20px;
+       background-color: #009900;
+       height: 25px;
+       width: 70px;
+       
+       
+    
+    }
+    
     
 
 }
@@ -225,6 +271,21 @@ body {
         padding: 10px;
         border-radius: 19px;
     }
+
+    .small-description {
+        font-size: 14px;
+        padding: 2px;
+        text-align: justify;
+    
+    }
+    .btn{
+        margin-left: 340px;
+        border-radius: 30px;
+       background-color: #009900;
+       height: 30px;
+       width: 90px;
+       
+    }
     
 
 }
@@ -253,6 +314,21 @@ body {
         height: 80px;
         padding: 10px;
         border-radius: 19px;
+    }
+
+    .small-description {
+        font-size: 14px;
+        padding: 2px;
+        text-align: justify;
+    
+    }
+    .btn{
+        margin-left: 340px;
+        border-radius: 30px;
+       background-color: #009900;
+       height: 30px;
+       width: 90px;
+    
     }
     
 
