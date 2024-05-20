@@ -107,7 +107,8 @@ body {
    width: 90px;
 
 }
-.btn:active{
+.btn:active{height: 29px;
+    width: 89px;
 
     background-color: #006600;
 
@@ -144,3 +145,115 @@ body {
 
     color: black;
 }
+@media screen and (max-width: 600px) {
+    
+    
+    .nav-text{
+        font-size: 15px;
+   
+        height: 20px;
+        width: 60px;
+
+    }
+    .nav-text:hover {
+        font-size: 17px;
+    }
+    .container {
+        height: fit-content;
+        background-color: #FAEED1;
+        padding: 7px;
+ 
+    }
+    .card {
+        height: 130px;
+        width: 350px;
+       
+        margin-top: 7px;
+        padding: 3px;
+     
+        
+    
+    }
+    .card:hover .img{
+       height:  62px ;
+    }
+    
+    .img {
+        height: 60px;
+        padding: 10px;
+      
+        border-radius: 19px;
+    }
+
+    
+    .big-description {
+      
+    
+        font-size: 15px;
+        padding-left: 3px;
+    }
+    
+    .small-description {
+        font-size: 10px;
+        padding: 2px;
+      
+    
+    }
+    .btn{
+        
+        margin-left: 200px;
+        border-radius: 30px;
+      
+       height: 20px;
+       width: 70px;
+       position: relative;
+       bottom: 10px;
+    
+    }
+    .btn:active{
+        height: 19px;
+        width: 69px;
+    
+    }
+    
+
+    .categoty-img {
+        
+        height:60px;
+    
+    }
+    
+    .categoty-img:hover {
+      
+        height: 61px;
+    
+    }
+    .page-name{
+        font-size: 10px;
+    }
+
+
+}                                
+@media screen and (min-width: 600px) and (max-width: 845px) {
+    
+
+    .categoty-img {
+        
+        height:80px;
+    
+    }
+    
+    .categoty-img:hover {
+      
+        height: 61px;
+    
+    }
+    .page-name{
+        font-size: 12px;
+    }
+
+
+}
+@media screen and (min-width: 846px) and (max-width: 992px) {}
+@media screen and (min-width: 993px) and (max-width: 1200px) {}
+@media screen and (min-width: 1201px){}
