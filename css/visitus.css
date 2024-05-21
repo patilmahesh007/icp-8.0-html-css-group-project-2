@@ -104,32 +104,33 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
 .navbar {
     display: flex;
     justify-content: space-around;
     background-color: #607274;
-    height: 100px;
+    height: 80px;
     align-items: center;
 }
-.nav-text {
 
+.nav-text {
     font-size: 20px;
-   
     height: 50px;
     width: 100px;
     text-align: center;
     padding-top: 10px;
-    
 }
+
 .nav-text:hover {
     font-size: 22px;
 }
-.nav-anchor{
+
+.nav-anchor {
     text-decoration: none;
     color: black;
 }
+
 .logo {
     border-radius: 50%;
-    height: 80px;
+    height: 60px;
 }
+
