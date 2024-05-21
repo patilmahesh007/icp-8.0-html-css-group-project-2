@@ -133,13 +133,13 @@ body {
 
 @media screen and (max-width: 600px) {
     .nav-text {
-        font-size: 15px;
+        font-size: 17px;
         height: 20px;
         width: 60px;
     }
 
     .nav-text:hover {
-        font-size: 17px;
+        font-size: 19px;
     }
 
     .container {
@@ -163,6 +163,7 @@ body {
         height: 60px;
         padding: 10px;
         border-radius: 19px;
+        
     }
 
     .big-description {
