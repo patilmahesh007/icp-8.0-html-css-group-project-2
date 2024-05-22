@@ -62,7 +62,7 @@ body {
     height: 180px;
     width: 450px;
     background-color: #FAEED1;
-
+position: relative;
     padding: 10px;
     border-radius: 5px;
     margin: 20px 20px;
@@ -103,6 +103,12 @@ body {
     background-color: #009900;
     height: 30px;
     width: 90px;
+    
+}
+.price{
+    position: absolute;
+left: 20px;
+border: 20px;
 }
 
 .btn:active {
@@ -379,6 +385,7 @@ body {
     .small-description {
         font-size: 12px;
     }
+    
 
     .btn {
         margin-left: 300px;
@@ -478,6 +485,7 @@ body {
         height: 29px;
         width: 85px;
     }
+    
 
     .btn:active {
         height: 28px;
@@ -552,7 +560,7 @@ body {
         height: 30px;
         width: 90px;
     }
-
+    
     .btn:active {
         height: 29px;
         width: 89px;
