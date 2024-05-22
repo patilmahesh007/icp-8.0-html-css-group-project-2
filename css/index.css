@@ -385,11 +385,7 @@ border: 20px;
     .small-description {
         font-size: 12px;
     }
-    .price{
-        position: absolute;
-    left: 20px;
-    border: 20px;
-    }
+    
 
     .btn {
         margin-left: 300px;
@@ -489,11 +485,7 @@ border: 20px;
         height: 29px;
         width: 85px;
     }
-    .price{
-        position: absolute;
-    left: 20px;
-    border: 20px;
-    }
+    
 
     .btn:active {
         height: 28px;
@@ -568,11 +560,7 @@ border: 20px;
         height: 30px;
         width: 90px;
     }
-    .price{
-        position: absolute;
-    left: 20px;
-    border: 20px;
-    }
+    
     .btn:active {
         height: 29px;
         width: 89px;
