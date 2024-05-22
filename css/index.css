@@ -3,7 +3,8 @@ body {
     margin: 0;
     background-color: #FAEED1;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Sedan+SC&display=swap');
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -40,13 +41,14 @@ body {
 .container {
     height: 280px;
     background-color: #DED0B6;
-    ;
+   
     padding: 10px;
 }
 
 
 
 .container-text {
+    font-family: "Dancing Script", cursive;
     font-size: 20px;
 }
 
@@ -166,6 +168,7 @@ body {
 
 #head {
     font-size: 35px;
+    
 }
 
 .footer-anchor {
@@ -174,8 +177,7 @@ body {
     font-size: 25px;
 }
 
-.cafe-name {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.cafe-name {  font-family: "Sedan SC", serif;
     margin: 5px 5px;
 }
 
@@ -265,15 +267,18 @@ body {
         display: flex;
         align-items: center;
         padding: 20px 20px;
+        font-size: 30px;
     }
 
-
+    .footer-heading {
+        font-size: 25px;
+    }
 
 
     .footer-anchor {
         text-decoration: none;
         color: black;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #box3 {
@@ -307,6 +312,7 @@ body {
     .page-name {
         font-size: 12px;
     }
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -320,9 +326,6 @@ body {
         align-items: center;
         padding: 20px 20px;
     }
-
-
-
 
     .footer-anchor {
         text-decoration: none;
@@ -400,41 +403,32 @@ body {
         font-size: 14px;
     }
 
+     
     .footer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
-        min-height: 600px;
-        padding: 20px 20px;
+        align-items: center;
+
     }
-
-    .footer-box {}
-
 
     .cafe-name {
         display: flex;
-
+        align-items: center;
         padding: 20px 20px;
     }
 
-    .footer-img {
-
-        height: 200px;
+    .footer-anchor {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
     }
 
-    .footer-heading {
-        font-weight: bold;
-        font-size: 35px;
-        text-align: center;
-
+    #box3 {
+        padding-left: 40px;
     }
 
-    .cafe-name {
-        font-size: x-large;
-        margin: 5px 55px;
-    }
+   
 }
 
 
@@ -500,7 +494,17 @@ body {
 
     .page-name {
         font-size: 15px;
+    }  
+    
+    #head {
+        font-size: 25px;
     }
+    
+    .footer-anchor {
+        font-size: 25px;
+    }
+    
+   
 }
 
 
