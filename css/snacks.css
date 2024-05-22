@@ -123,6 +123,15 @@ body {
     .info{
         font-size: smaller;
     }
+    .btn {
+        margin-left: 50px;
+        border-radius: 30px;
+        background-color: #009900;
+        height: 30px;
+        width: 80px;
+    
+    }
+    
     
     
     
