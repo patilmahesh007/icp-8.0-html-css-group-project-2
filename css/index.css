@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #FAEED1 ;
+    background-color: #FAEED1;
 }
 
 .navbar {
@@ -32,11 +32,15 @@ body {
 .logo {
     border-radius: 50%;
     height: 60px;
+
 }
+
+
 
 .container {
     height: 280px;
-    background-color:  #DED0B6;;
+    background-color: #DED0B6;
+    ;
     padding: 10px;
 }
 
@@ -55,18 +59,18 @@ body {
 .card {
     height: 180px;
     width: 450px;
-    background-color: #FAEED1 ;
-    
+    background-color: #FAEED1;
+
     padding: 10px;
     border-radius: 5px;
     margin: 20px 20px;
-    box-shadow: 3px 3px 5px #607274 ;
+    box-shadow: 3px 3px 5px #607274;
 }
 
 
 .card:hover .img {
     height: 72px;
-    
+
 }
 
 .img {
@@ -104,9 +108,8 @@ body {
     width: 89px;
     background-color: #006600;
 }
-.button{
 
-}
+.button {}
 
 .categories {
     display: flex;
@@ -135,33 +138,44 @@ body {
     margin-top: 10px;
     color: black;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
-background-color:#B2A59B;
-min-height: 600px;
-padding: 20px 20px;
-  }
-  .cafe-name{
+    background-color: #B2A59B;
+    min-height: 600px;
+    padding: 20px 20px;
+}
+
+.cafe-name {
     display: flex;
     align-items: center;
     padding: 20px 20px;
-  }
-  .footer-img{
+}
+
+.footer-img {
     border-radius: 50%;
     height: 80px;
-  }
-  .footer-heading{
+}
+
+.footer-heading {
     font-weight: bold;
-    font-size: larger;
-  }
-  .footer-anchor{
+   
+    font-size: 35px;
+}
+#head{
+    font-size: 35px;
+}
+
+.footer-anchor {
     text-decoration: none;
     color: black;
-  }
-.cafe-name{
+    font-size: 25px;
+}
+
+.cafe-name {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   margin: 5px 5px;
+    margin: 5px 5px;
 }
 
 
@@ -178,16 +192,18 @@ padding: 20px 20px;
 
     .container {
         height: fit-content;
-       
+
         padding: 7px;
     }
-.card{
-    height: 140px;
-    width : 370px;
-    margin-top: 7px;
-    padding: 3px 20px;
-   
-}
+
+    .card {
+        height: 140px;
+        width: 370px;
+        margin-top: 7px;
+        padding: 3px 20px;
+
+    }
+
     .card:hover .img {
         height: 62px;
     }
@@ -196,7 +212,7 @@ padding: 20px 20px;
         height: 60px;
         padding: 10px;
         border-radius: 19px;
-        
+
     }
 
     .big-description {
@@ -244,10 +260,11 @@ padding: 20px 20px;
         height: 30px;
         width: 70px;
     }
+
     .nav-text:hover {
         font-size: 18px;
     }
-    
+
     .categoty-img {
         height: 80px;
     }
@@ -260,6 +277,7 @@ padding: 20px 20px;
         font-size: 12px;
     }
 }
+
 @media screen and (min-width: 846px) and (max-width: 992px) {
     .nav-text {
         font-size: 18px;
@@ -322,6 +340,42 @@ padding: 20px 20px;
 
     .page-name {
         font-size: 14px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: 600px;
+        padding: 20px 20px;
+    }
+   
+    .footer-box{}
+   
+
+    .cafe-name {
+        display: flex;
+       
+        padding: 20px 20px;
+    }
+
+    .footer-img {
+
+        height: 200px;
+    }
+
+    .footer-heading {
+        font-weight: bold;
+        font-size: 35px;
+       text-align: center;
+
+    }
+
+    .cafe-name {
+        font-size: x-large;
+        margin: 5px 55px;
     }
 }
 
@@ -410,7 +464,7 @@ padding: 20px 20px;
     .card {
         height: 180px;
         width: 450px;
-    
+
     }
 
     .card:hover .img {
