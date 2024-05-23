@@ -34,3 +34,32 @@ This project is a responsive website for a cafe. It provides information about t
    ``` bash
    npm start
    ```
+
+## How to contribute 
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch
+   ``` bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit
+   ``` bash
+   git commit -m "Description of your feature"
+   ```
+4. Push to the branch
+   ```bash
+   git push origin feature-name
+   ```
+5. Create a pull request.
+
+## Contribution Graph 
+![Graph](img/graph.png)
+   
+## Usage
+It mentions visiting the site to explore various sections like the menu and reservations. It also notes that future implementations might include an admin panel for updating the menu and managing reservations.
+
+## Contact 
+
+
+
