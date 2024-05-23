@@ -61,8 +61,10 @@ It mentions visiting the site to explore various sections like the menu and rese
 
 ## Contact 
 - Email : Maharjascafe@gmail.com
-- Project Link :https://main--funny-elf-525eac.netlify.app/
-                https://github.com/Samikshanikhare/icp-8.0-html-css-group-project-2
+- Project Link :
+  - https://main--funny-elf-525eac.netlify.app/
+  
+  - https://github.com/Samikshanikhare/icp-8.0-html-css-group-project-2
 
 
 
