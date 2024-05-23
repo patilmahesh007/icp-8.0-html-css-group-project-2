@@ -11,9 +11,14 @@
     font-size: 30px;
 }
 .btn{
-    background-color: #607274;
+    background-color: #006600;
     height: 30px;
     width: 150px;
     margin-left: 1150px;
     border-radius: 20px;
+    color: white;
+}
+.btn:active {
+    background-color: #006600;
+
 }
