@@ -1,0 +1,24 @@
+.head{
+    font-size: 30px;
+    padding-left: 450px;
+}
+.img{
+    height: 70px;
+    width: 70px;
+}
+.input{
+    padding-left: 400px;
+    font-size: 30px;
+}
+.btn{
+    background-color: #006600;
+    height: 30px;
+    width: 150px;
+    margin-left: 1150px;
+    border-radius: 20px;
+    color: white;
+}
+.btn:active {
+    background-color: #006600;
+
+}
