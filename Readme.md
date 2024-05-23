@@ -60,6 +60,9 @@ Contributions are welcome! Please follow these steps to contribute:
 It mentions visiting the site to explore various sections like the menu and reservations. It also notes that future implementations might include an admin panel for updating the menu and managing reservations.
 
 ## Contact 
+- Email : Maharjascafe@gmail.com
+- Project Link :https://main--funny-elf-525eac.netlify.app/
+                https://github.com/Samikshanikhare/icp-8.0-html-css-group-project-2
 
 
 
