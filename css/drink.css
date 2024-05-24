@@ -90,6 +90,14 @@ margin-left:190px ;
 padding: 30px;
 margin-top:-50px;
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #607274;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
 
 /* small Devices */
 
@@ -173,7 +181,7 @@ margin-top:-50px;
   }
   
   .T{
-  font-size: 35px;
+  font-size: 25px;
   color: #4f3222;
   display: inline-block;
   text-align: start;
@@ -263,6 +271,7 @@ height: 50px;
     background-color: #FAEED1;
     padding-bottom:50px ;
     padding-right: 20px;
+    
   }
  
  
@@ -274,7 +283,7 @@ height: 50px;
 }
 
 .T{
-font-size: 40px;
+font-size: 25px;
 color: #4f3222;
 display: inline-block;
 text-align: start;
@@ -357,7 +366,6 @@ height: 90px;
      display: flex;
      flex-wrap: wrap;
      
-    
     background-color: #FAEED1;
     padding-bottom:50px ;
 
@@ -372,7 +380,7 @@ height: 90px;
 }
 
 .T{position: static ;
-font-size: 40px;
+font-size: 35px;
 color: #4f3222;
 display: inline-block;
 text-align: start;
@@ -454,8 +462,7 @@ padding-top: 5px;
      display: flex;
      flex-wrap: wrap;
      
-    
-    background-color: #FAEED1;
+     background-color: #FAEED1;
     padding-bottom:30px ;
 
   }
@@ -467,7 +474,7 @@ padding-top: 5px;
 }
 
 .T{position: static ;
-font-size: 40px;
+font-size: 35px;
 color: #4f3222;
 display: inline-block;
 text-align: start;

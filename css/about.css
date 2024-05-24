@@ -36,6 +36,8 @@ body {
     display:flex;
 }
 .abimg{
+    height:400px;
+    width:1000px;
     margin-left: 200px;
     border-radius: 30px 25% 60px 25%;
 }
@@ -79,4 +81,11 @@ h1{
 }
 a{
     text-decoration: none;
+}
+
+@media screen and(min-width:769) and (max-width: 992px) {
+    .abimg {
+        height: 100px;
+        width: 200px;
+    }
 }
