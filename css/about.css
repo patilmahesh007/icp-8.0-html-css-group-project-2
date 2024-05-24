@@ -82,7 +82,15 @@ h1{
 a{
     text-decoration: none;
 }
-@media screen and(max-width: 600px) {
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #607274;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+@media screen and(min-width:769) and (max-width: 992px) {
     .abimg {
         height: 100px;
         width: 200px;
