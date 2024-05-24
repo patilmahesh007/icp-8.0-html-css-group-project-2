@@ -87,7 +87,14 @@ body {
    width: 89px;
     background-color: #006600;
 }
-
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #607274;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
 @media  screen and (min-width:769px) and (max-width: 992px) {
     .card{
     height: 230px;
