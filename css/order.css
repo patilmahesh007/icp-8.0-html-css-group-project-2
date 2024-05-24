@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: #DED0B6;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -13,102 +13,665 @@ body {
 }
 
 .nav-text {
-
     font-size: 20px;
-   
     height: 50px;
     width: 100px;
     text-align: center;
     padding-top: 10px;
-    
 }
 
 .nav-text:hover {
     font-size: 22px;
 }
-.nav-anchor{
+
+.nav-anchor {
     text-decoration: none;
     color: black;
+}
+.nav-text2{
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
 }
 
 .logo {
     border-radius: 50%;
     height: 60px;
 }
-.navbar2{
-  display: flex;
- padding: 0px 40px;
- height: 100px;   
-   margin-top: -0px;
-   font-size: larger;
-   align-items: center;
 
- background-color: #FAEED1;
+.navbar2 {
+    display: flex;
+    padding: 0px 40px;
+    height: 100px;
+    margin-top: 0;
+    font-size: larger;
+    align-items: center;
+    background-color: #FAEED1;
 }
-.navbar2>a{
+
+.navbar2 > a {
     text-decoration: none;
     color: black;
     font-size: larger;
 }
-.parent-container-text{
-    font-size:larger;
-    padding: 20px;
-    position: relative;
-    bottom: 10px;
+
+.parent-container-text {
+    font-size: larger;
+    padding-left: 20px;  
+
+    font-family: "Dancing Script", cursive;
 }
 
-.container{
- 
-    height: 800px;
+.container {
+    height: 400px;
     display: flex;
-    justify-content:space-around;
-}
-.card{
-    width: 471px;
-    height:300px;
-    border-radius: 7px;
-    
- background-color: #FAEED1;
- position: relative;
-   
+    justify-content: space-around;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
-.card >img{
-    height: 150PX;
+.card {
+    width: 471px;
+    height: 300px;
+    border-radius: 7px;
+    background-color: #FAEED1;
+    position: relative;
+    margin: 10px 10px;
+}
+
+.card > img {
+    height: 150px;
     border-bottom: 0.3px solid;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
 }
 
-.text-big{
+.text-big {
     font-size: x-large;
-    padding: 20px;
 
+    padding-left: auto;
+    text-align: start  ;
+    padding-left: 10px;
 }
-.text-small{
+
+.text-small {
     font-size: 12px;
-    padding: 10px;
-    text-align: center;
-    padding-left: 20px;
+    text-align: start;
+ width: 471px;
+       display: inline-block;
+      padding-left: 10px;
 }
-.btn{ border-radius: 30px;
+.price{
+    position: absolute;
+    left: 300px;
+    bottom: 220px;
+}
+
+.btn {
+    border-radius: 30px;
     background-color: #009900;
     height: 30px;
     width: 90px;
     position: absolute;
     top: 250px;
     left: 350px;
- }
- .btn:active{
+}
 
+.btn:active {
     background-color: #006600;
     height: 29px;
     width: 89px;
 }
-.price{
+
+.price {
+
+position: absolute;
+
+left: 20px;
+bottom: 20px;
+  
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B2A59B;
+    min-height: 600px;
+    padding: 20px 20px;
+}
+
+.cafe-name {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.footer-img {
+    border-radius: 50%;
+    height: 80px;
+}
+
+.footer-heading {
+    font-weight: bold;
+
+    font-size: 35px;
+}
+
+#head {
+    font-size: 35px;
     
-    margin-left: 20px;
-   display: inline-block;
-   padding-top: 20PX;
+}
+
+.footer-anchor {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.cafe-name {  font-family: "Sedan SC", serif;
+    margin: 5px 5px;
+}
+@media screen and (max-width: 447px) {
+    .nav-text {
+        font-size: 14px;
+        height: 17px;
+        width: 60px;
+    }
+
+    .nav-text:hover {
+        font-size: 13px;
+    }
+    .navbar2{
+        height: fit-content;
+        padding: 2px;
+    }
+    .nav-text2 {
+      
+        font-size: 10px !important;
+        font-family: "Dancing Script", cursive !important;
+      padding: 3px 3px;
+    }
+    .container {
+        height: 330px;
+            }
+    
+    .card {
+        width: 440px;
+        height: 250px;
+        border-radius: 7px;
+        background-color: #FAEED1;
+        position: relative;
+        margin: 10px 10px;
+    }
+    
+    .card > img {
+        
+        height: 140px;
+        border-bottom: 0.3px solid;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .text-big {
+        font-size: 20px;
+    
+        padding-left: auto;
+        text-align: start  ;
+        padding-left: 10px;
+    }
+    
+    .text-small {
+        font-size: 11px;
+   
+     width: 471px;
+       
+          padding-left: 10px;
+    }
+    
+    
+    .btn {
+        border-radius: 30px;
+        
+        height: 25px;
+        width: 80px;
+        
+        top: 210px;
+        left: 330px;
+    }
+    
+    .btn:active {
+   
+        height: 24px;
+        width: 79px;
+    }
+    
+    .price {
+    
+    
+    left: 20px;
+    bottom: 20px;
+      
+    }  
+    
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cafe-name {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    .footer-anchor {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+
+    #box3 {
+        padding-left: 40px;
+    }
+
+}                                
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .nav-text {
+        font-size: 16px;
+        height: 30px;
+        width: 70px;
+    }
+
+    .nav-text:hover {
+        font-size: 18px;
+    }
+    .navbar2{
+        height: fit-content;
+        padding: 10px;
+    }
+    .nav-text2 {
+      
+        font-size: 15px !important;
+    }
+    .container {
+        height: 350px;
+            }
+    
+    .card {
+        width: 450px;
+        height: 270px;
+        border-radius: 7px;
+        background-color: #FAEED1;
+        position: relative;
+        margin: 10px 10px;
+    }
+    
+    .card > img {
+        
+        height: 143px;
+        border-bottom: 0.3px solid;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .text-big {
+        font-size: 20px;
+    
+        padding-left: auto;
+        text-align: start  ;
+        padding-left: 10px;
+    }
+    
+    .text-small {
+        font-size: 11px;
+   
+     width: 471px;
+       
+          padding-left: 10px;
+    }
+    
+    
+    .btn {
+        border-radius: 30px;
+        
+        height: 25px;
+        width: 80px;
+        
+        top: 230px;
+        left: 330px;
+    }
+    
+    .btn:active {
+   
+        height: 24px;
+        width: 79px;
+    }
+    
+    .price {
+    
+    
+    left: 20px;
+    bottom: 20px;
+      
+    } 
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cafe-name {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    .footer-anchor {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+
+    #box3 {
+        padding-left: 40px;
+    }
+
+}
+@media screen and (min-width: 447px) and (max-width: 600px) {
+
+    .nav-text {
+        font-size: 17px;
+        height: 20px;
+        width: 60px;
+    }
+
+    .nav-text:hover {
+        font-size: 19px;
+    }
+    .navbar2{
+        height: fit-content;
+        padding: 10px;
+    }
+    .nav-text2 {
+      
+        font-size: 13px !important;
+        font-family: "Dancing Script", cursive !important;
+      padding: 3px 3px;
+    }
+    .container {
+        height: 350px;
+            }
+    
+    .card {
+        width: 440px;
+        height: 270px;
+        border-radius: 7px;
+        background-color: #FAEED1;
+        position: relative;
+        margin: 10px 10px;
+    }
+    
+    .card > img {
+        
+        height: 140px;
+        border-bottom: 0.3px solid;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .text-big {
+        font-size: 20px;
+    
+        padding-left: auto;
+        text-align: start  ;
+        padding-left: 10px;
+    }
+    
+    .text-small {
+        font-size: 11px;
+   
+     width: 471px;
+       
+          padding-left: 10px;
+    }
+    
+    
+    .btn {
+        border-radius: 30px;
+        
+        height: 25px;
+        width: 80px;
+        
+        top: 230px;
+        left: 330px;
+    }
+    
+    .btn:active {
+   
+        height: 24px;
+        width: 79px;
+    }
+    
+    .price {
+    
+    
+    left: 20px;
+    bottom: 20px;
+      
+    }  
+    
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cafe-name {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    .footer-anchor {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+
+    #box3 {
+        padding-left: 40px;
+    }
+
+}                                
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .nav-text {
+        font-size: 16px;
+        height: 30px;
+        width: 70px;
+    }
+
+    .nav-text:hover {
+        font-size: 18px;
+    }
+    .navbar2{
+        height: fit-content;
+        padding: 10px;
+    }
+    .nav-text2 {
+      
+        font-size: 15px !important;
+    }
+    .container {
+        height: 350px;
+            }
+    
+    .card {
+        width: 450px;
+        height: 270px;
+        border-radius: 7px;
+        background-color: #FAEED1;
+        position: relative;
+        margin: 10px 10px;
+    }
+    
+    .card > img {
+        
+        height: 143px;
+        border-bottom: 0.3px solid;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .text-big {
+        font-size: 20px;
+    
+        padding-left: auto;
+        text-align: start  ;
+        padding-left: 10px;
+    }
+    
+    .text-small {
+        font-size: 11px;
+   
+     width: 471px;
+       
+          padding-left: 10px;
+    }
+    
+    
+    .btn {
+        border-radius: 30px;
+        
+        height: 25px;
+        width: 80px;
+        
+        top: 230px;
+        left: 330px;
+    }
+    
+    .btn:active {
+   
+        height: 24px;
+        width: 79px;
+    }
+    
+    .price {
+    
+    
+    left: 20px;
+    bottom: 20px;
+      
+    } 
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cafe-name {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    .footer-anchor {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+
+    #box3 {
+        padding-left: 40px;
+    }
+
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .nav-text {
+        font-size: 18px;
+        height: 40px;
+        width: 80px;
+    }
+
+    .nav-text:hover {
+        font-size: 20px;
+    }
+    .navbar2{
+        height: fit-content;
+        padding: 20px;
+    }
+    .nav-text2 {
+      
+        font-size: 15px !important;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cafe-name {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    .footer-anchor {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+
+    #box3 {
+        padding-left: 40px;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    
+    .nav-text {
+        font-size: 19px;
+        height: 45px;
+        width: 90px;
+    }
+
+    .nav-text:hover {
+        font-size: 21px;
+    }
+    .navbar2{
+        height: fit-content;
+        padding: 20px;
+    }
+    .nav-text2 {
+      
+        font-size: 16px !important;
+    }
+    #head {
+        font-size: 25px;
+    }
+    
+    .footer-anchor {
+        font-size: 25px;
+    }
+    
+}
+@media screen and (min-width: 1201px){.nav-text {
+    font-size: 20px;
+    width: 100px;
+}
+
+.nav-text:hover {
+    font-size: 22px;
+}
 }
