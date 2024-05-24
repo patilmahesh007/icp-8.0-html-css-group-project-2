@@ -83,9 +83,16 @@ a{
     text-decoration: none;
 }
 
-@media screen and(min-width:769) and (max-width: 992px) {
+@media screen and (min-width: 601px) and (max-width: 768px) {
     .abimg {
-        height: 100px;
-        width: 200px;
+    height: 300px;
+    width: 530px;
+    margin-left: 40px;
+    }
+    h1{
+        text-align: center;
+    }
+    .info {
+        padding-left: 20px;
     }
 }
