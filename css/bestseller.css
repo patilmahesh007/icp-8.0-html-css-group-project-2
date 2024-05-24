@@ -107,6 +107,14 @@ body {
     .btn{
         margin-left: 240px;    
     }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #607274;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
 }
 @media  screen and (min-width:601px) and (max-width: 768px) {
     .card{
