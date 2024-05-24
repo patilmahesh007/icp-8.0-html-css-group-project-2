@@ -17,8 +17,7 @@ body {
     height: 50px;
     width: 100px;
     text-align: center;
-    padding-top: 10px;
-    
+    padding-top: 10px;  
 }
 
 .nav-text:hover {
@@ -38,7 +37,7 @@ body {
     display:flex;
 }
 .card {
-    height: 230px;
+    height: 200px;
     width: 450px;
     background-color: #DED0B6;
     margin-top: 10px;
@@ -63,7 +62,6 @@ body {
 
 .big-description {
     display: block;
-
     font-size: 20px;
     padding-left: 3px;
 }
@@ -72,15 +70,13 @@ body {
     font-size: 14px;
     padding: 2px;
     text-align: justify;
-
 }
 .btn{
     margin-left: 340px;
     border-radius: 30px;
    background-color: #009900;
-   height: 30px;
-   width: 90px;
-
+   height: 40px;
+   width: 100px;
 }
 .btn:active{
     height: 29px;
@@ -97,35 +93,29 @@ body {
 }
 @media  screen and (min-width:769px) and (max-width: 992px) {
     .card{
-    height: 300px;
-    width: 420px;
+    height: 240px;
+    width: 300px;
     margin-left: 40px;
     display: inline-block;
     }
     .btn{
-        margin-left: 240px;    
-    }
-    .footer {
-        display: flex;
-        flex-direction: column;
-        background-color: #607274;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
+        margin-left: 180px;   
+        height: 30px;
+        width: 90px;    
     }
 }
 @media  screen and (min-width:601px) and (max-width: 768px) {
     .card{
         height: 180px;
-        width: 490px;
+        width: 470px;
         margin-left: 50px;
         display: inline-block;
         padding: 20px;
-        padding-left:40px ;
-        }
-        .btn{
-            margin-left: 180px;   
-            height: 20px;
-            width: 80px; 
-        }
+        padding-left:20px ;
+     }
+    .btn{
+        margin-left: 180px;   
+        height: 30px;
+        width: 90px; 
+    }
 }
