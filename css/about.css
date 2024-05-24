@@ -82,7 +82,7 @@ h1{
 a{
     text-decoration: none;
 }
-@media screen and(max-width: 600px) {
+@media screen and(min-width:769) and (max-width: 992px) {
     .abimg {
         height: 100px;
         width: 200px;
