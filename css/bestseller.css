@@ -86,5 +86,14 @@ body {
     height: 29px;
    width: 89px;
     background-color: #006600;
-
+}
+@media  screen and (min-width:993px) and (max-width: 1200px) {
+    .card{
+    height: 250px;
+    width: 400px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline;
+    }
 }
