@@ -97,3 +97,14 @@ body {
     display: inline;
     }
 }
+@media  screen and (min-width:769px) and (max-width: 992px) {
+    .card{
+    height: 230px;
+    width: 400px;
+    margin-left: 40px;
+    display: inline-block;
+    }
+    .btn{
+        margin-left: 240px;    
+    }
+}
