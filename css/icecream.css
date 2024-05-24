@@ -111,6 +111,14 @@ body {
 .padding-left {
     cursor: pointer;
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #607274;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -185,4 +193,5 @@ body {
         width: 70px;
         height: 25px;
     }
+    
 }
