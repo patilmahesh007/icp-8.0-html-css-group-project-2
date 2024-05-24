@@ -1,0 +1,188 @@
+.box {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FAEED1;
+}
+
+.box:hover {
+    overflow-y: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #607274;
+    height: 100px;
+    align-items: center;
+}
+
+.nav-text {
+   font-size: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav-text:hover {
+   font-size: 22px;
+}
+.nav-anchor{
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 80px;
+}
+
+.text-large {
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.item {
+    height: 180px;
+    width: 100%;
+    max-width: 360px;
+    background-color: #DED0B6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item:hover .picture {
+    height: 72px;
+}
+
+.picture {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 19px;
+}
+
+.header {
+    display: flex;
+}
+
+.title {
+    display: block;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+.description {
+    font-size: 14px;
+    padding: 2px;
+    text-align: justify;
+}
+
+.btn {
+    align-self: flex-end;
+    border-radius: 30px;
+    background-color: #009900;
+    height: 30px;
+    width: 90px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #006600;
+}
+
+.padding-left {
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-text {
+        margin: 5px 0;
+    }
+
+    .logo {
+        height: 60px;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    .item {
+        width: calc(100% - 20px);
+    }
+
+    .text-large {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 80px;
+        height: 28px;
+    }
+}
+
+  @media (max-width: 480px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .nav-text {
+        width: 80px;
+        height: 25px;
+        padding-top: 5px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .text-large {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    .btn {
+        width: 70px;
+        height: 25px;
+    }
+}

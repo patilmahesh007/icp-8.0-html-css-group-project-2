@@ -1,9 +1,10 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #DED0B6;
+    background-color: #FAEED1;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Sedan+SC&display=swap');
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -32,17 +33,22 @@ body {
 .logo {
     border-radius: 50%;
     height: 60px;
+
 }
+
+
 
 .container {
     height: 280px;
-    background-color: #FAEED1;
+    background-color: #DED0B6;
+   
     padding: 10px;
 }
 
 
 
 .container-text {
+    font-family: "Dancing Script", cursive;
     font-size: 20px;
 }
 
@@ -55,15 +61,18 @@ body {
 .card {
     height: 180px;
     width: 450px;
-    background-color: #DED0B6;
-    
+    background-color: #FAEED1;
+position: relative;
     padding: 10px;
     border-radius: 5px;
     margin: 20px 20px;
+    box-shadow: 3px 3px 5px #607274;
 }
+
 
 .card:hover .img {
     height: 72px;
+
 }
 
 .img {
@@ -94,6 +103,12 @@ body {
     background-color: #009900;
     height: 30px;
     width: 90px;
+    
+}
+.price{
+    position: absolute;
+left: 20px;
+border: 20px;
 }
 
 .btn:active {
@@ -101,6 +116,8 @@ body {
     width: 89px;
     background-color: #006600;
 }
+
+.button {}
 
 .categories {
     display: flex;
@@ -130,6 +147,46 @@ body {
     color: black;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B2A59B;
+    min-height: 600px;
+    padding: 20px 20px;
+}
+
+.cafe-name {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.footer-img {
+    border-radius: 50%;
+    height: 80px;
+}
+
+.footer-heading {
+    font-weight: bold;
+
+    font-size: 35px;
+}
+
+#head {
+    font-size: 35px;
+    
+}
+
+.footer-anchor {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.cafe-name {  font-family: "Sedan SC", serif;
+    margin: 5px 5px;
+}
+
 
 @media screen and (max-width: 600px) {
     .nav-text {
@@ -144,15 +201,16 @@ body {
 
     .container {
         height: fit-content;
-        background-color: #FAEED1;
+
         padding: 7px;
     }
 
     .card {
-        height: 130px;
-        width: 350px;
+        height: 140px;
+        width: 370px;
         margin-top: 7px;
-        padding: 3px;
+        padding: 3px 20px;
+
     }
 
     .card:hover .img {
@@ -163,7 +221,7 @@ body {
         height: 60px;
         padding: 10px;
         border-radius: 19px;
-        
+
     }
 
     .big-description {
@@ -185,6 +243,7 @@ body {
         bottom: 10px;
     }
 
+
     .btn:active {
         height: 19px;
         width: 69px;
@@ -201,6 +260,39 @@ body {
     .page-name {
         font-size: 10px;
     }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cafe-name {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px;
+        font-size: 30px;
+    }
+
+    .footer-heading {
+        font-size: 25px;
+    }
+
+
+    .footer-anchor {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    #box3 {
+        padding-left: 40px;
+    }
+
+
+
 }
 
 
@@ -210,10 +302,11 @@ body {
         height: 30px;
         width: 70px;
     }
+
     .nav-text:hover {
         font-size: 18px;
     }
-    
+
     .categoty-img {
         height: 80px;
     }
@@ -225,6 +318,31 @@ body {
     .page-name {
         font-size: 12px;
     }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cafe-name {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    .footer-anchor {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+
+    #box3 {
+        padding-left: 40px;
+    }
+
 }
 
 @media screen and (min-width: 846px) and (max-width: 992px) {
@@ -267,6 +385,7 @@ body {
     .small-description {
         font-size: 12px;
     }
+    
 
     .btn {
         margin-left: 300px;
@@ -290,6 +409,33 @@ body {
     .page-name {
         font-size: 14px;
     }
+
+     
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cafe-name {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    .footer-anchor {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+
+    #box3 {
+        padding-left: 40px;
+    }
+
+   
 }
 
 
@@ -339,6 +485,7 @@ body {
         height: 29px;
         width: 85px;
     }
+    
 
     .btn:active {
         height: 28px;
@@ -355,7 +502,17 @@ body {
 
     .page-name {
         font-size: 15px;
+    }  
+    
+    #head {
+        font-size: 25px;
     }
+    
+    .footer-anchor {
+        font-size: 25px;
+    }
+    
+   
 }
 
 
@@ -377,7 +534,7 @@ body {
     .card {
         height: 180px;
         width: 450px;
-    
+
     }
 
     .card:hover .img {
@@ -403,7 +560,7 @@ body {
         height: 30px;
         width: 90px;
     }
-
+    
     .btn:active {
         height: 29px;
         width: 89px;
