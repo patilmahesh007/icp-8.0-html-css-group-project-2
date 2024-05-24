@@ -90,6 +90,14 @@ margin-left:190px ;
 padding: 30px;
 margin-top:-50px;
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #607274;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
 
 /* small Devices */
 
