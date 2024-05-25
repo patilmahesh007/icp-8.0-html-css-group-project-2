@@ -218,12 +218,13 @@ body {
     }
 
 }
-@media screen and (min-width:1044px) and (max-width:1200px){
+@media screen and (min-width:1240px) and (max-width:1351px){
     .card {
         height: 250px;
         width: 450px;
         display: inline-block;
         margin-left: 70px;
+        margin-right: 70px;
     }
     .info{
         font-size: larger;
