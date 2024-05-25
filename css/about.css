@@ -83,6 +83,20 @@ a{
     text-decoration: none;
 }
 /*normal devises*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .abimg {
+    height: 400px;
+    width: 700px;
+    margin-left: 30px;
+    }
+    h1{
+        text-align: center;
+    }
+    .info {
+        padding-left: 10px;
+    }
+}
+/*normal devises*/
 @media screen and (min-width: 601px) and (max-width: 768px) {
     .abimg {
     height: 320px;
@@ -97,7 +111,7 @@ a{
     }
 }
 /*small devises*/
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 200px) and (max-width: 600px) {
     .abimg {
     height: 300px;
     width: 450px;

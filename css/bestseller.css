@@ -122,7 +122,7 @@ body {
     }
 }
 /*small devices */
-@media  screen and (min-width:300px) and (max-width: 600px) {
+@media  screen and (min-width:200px) and (max-width: 600px) {
     .card{
         height: 215px;
         width: 300px;
