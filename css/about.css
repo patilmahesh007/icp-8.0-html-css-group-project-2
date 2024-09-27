@@ -36,17 +36,37 @@ body {
     display:flex;
 }
 .abimg{
-    height:400px;
-    width:1000px;
-    margin-left: 200px;
+    height:600px;
+    width:1300px;
+    margin-left: 100px;
     border-radius: 30px 25% 60px 25%;
 }
+.card {
+    height: 270px;
+    width: 430px;
+    background-color: #FAEED1;
+    position: relative;
+    border-radius: 10px;
+    margin: 20px 20px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.card:hover .img {
+    height: 263px;
+}
+.img {
+    height: 260px;
+    width: 420;
+    padding: 5px;
+    border-radius: 30px;
+}
+
 h1{
-    text-align: center;
+    padding-left:500px ;
     font-family:cursive;
 }
 .info{
-    padding-left: 700px;
+    padding-left: 500px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .contact-platform{
@@ -83,10 +103,30 @@ a{
     text-decoration: none;
 }
 /*normal devises*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .abimg {
+    height: 400px;
+    width: 700px;
+    margin-left: 30px;
+    }
+    .card {
+        height: 300px;
+        width: 500px;
+        display: block;
+        padding-left: 200px;
+    }
+    h1{
+        text-align: left;
+    }
+    .info {
+        padding-left: 10px;
+    }
+}
+/*normal devises*/
 @media screen and (min-width: 601px) and (max-width: 768px) {
     .abimg {
     height: 320px;
-    width: 4500px;
+    width: 500px;
     margin-left: 30px;
     }
     h1{
@@ -97,14 +137,15 @@ a{
     }
 }
 /*small devises*/
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 200px) and (max-width: 600px) {
     .abimg {
     height: 300px;
-    width: 450px;
+    width: 400px;
     margin-left: 30px;
     }
     h1{
-        text-align: center;
+        padding-left: 150px;
+        text-align: left;
     }
     .info {
         padding-left: 10px;
